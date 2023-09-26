@@ -1,0 +1,1 @@
+export { default as MUserDeptList } from './user/MUserDeptList.vue';

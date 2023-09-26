@@ -1,0 +1,15 @@
+//body margin 的误差值 四面都是8px
+$BodyMargin: 16px;
+
+//根节点高度
+$RootHeight: calc(100vh - $BodyMargin);
+$RootWitdh: calc(100vw - $BodyMargin);
+
+//全局上下margin
+$Margin-Top: 10px;
+$Margin-Bottom: 10px;
+
+//右侧内容部分
+$ContentMargin-Left: 10px;
+$ContentMargin-Right: 10px;
+$Border-Color: hsla(0, 1%, 55%, 0.1);

@@ -1,0 +1,40 @@
+//最外层 
+.outermost {
+  margin: 0px;
+  padding: 0px;
+}
+
+.titleDiv {
+  background: linear-gradient(to right, #ffffff, #4983f6);
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 50px;
+  line-height: 50px;
+  position:relative;
+  margin-left: $ContentMargin-Left;
+  margin-right: $ContentMargin-Right;
+}
+
+.titleText {
+  color: #000;
+  margin-left: $ContentMargin-Left;
+  /* 设置字体颜色为黑色 */
+  font-size: larger;
+  font-weight: bold;
+}
+
+.searchDiv {
+  margin-bottom: 15px;
+  width: 90%;
+  /* 设置字体颜色为黑色 */
+}
+
+.el-main{
+  // margin-top: 15px;
+  padding: 0px !important;
+}
+
+.pageTableClass{
+  margin-left: $ContentMargin-Left;
+  margin-right: $ContentMargin-Right;
+}

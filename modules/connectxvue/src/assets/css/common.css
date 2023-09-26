@@ -1,0 +1,15 @@
+.btn_on {
+    pointer-events: none;
+}
+.btn_off {
+    pointer-events: initial;
+}
+/*登录/注册页面 el-form-item label的字体颜色*/
+.item-label .el-form-item__label{
+    color: floralwhite;
+}
+
+.el-header {
+    padding: 0px;
+    --el-header-padding: 0 0 !important;
+  }
